@@ -1,0 +1,45 @@
+.container {
+  position: fixed;
+  background-color: #36353c;
+  width: 50px;
+  /* height: 150px; */
+  top: 30%;
+  left: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.buttonCircle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px 0;
+}
+
+.buttonCircle:nth-child(1){
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.buttonCircle:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 40px;
+  left: 10px;
+
+    border-radius: 20px;
+    padding: 0px;
+  }
+  .buttonCircle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+  }
+}

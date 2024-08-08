@@ -1,0 +1,22 @@
+export const notesColors={
+    pink:{
+        id:1,
+        header:"#FDD0FD",
+        body:"#FEE5FD",
+    },
+    yellow:{
+        id:2,
+        header:"#FEF1BF",
+        body:"#FFF5DE",
+    },
+    cyan:{
+        id:3,
+        header:"#9AD2DE",
+        body:"#99CAD6",
+    },
+    green:{
+        id:4,
+        header:"#B0DA9E",
+        body:"#A9C79E",
+    }
+}
