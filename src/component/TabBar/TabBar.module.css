@@ -2,7 +2,7 @@
     width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
     position: fixed;
-    z-index: 2;
+    z-index: 999;
     background-color: #202228;
     border-bottom: 1px solid rgb(84, 84, 84);
 
@@ -23,6 +23,9 @@
     padding: 0 5px;
     justify-content: space-between;
     opacity: 0.9;
+  }
+  .activeTabWrapper{
+    opacity: 1;
   }
   .tabWrapper:hover{
     opacity: 1;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 *{
   margin: 0%;
   padding: 0%;
@@ -7,4 +10,10 @@ body{
   background-size: 100px 100px;
   background-image: linear-gradient(to right, #323232 1px, transparent 1px),
     linear-gradient(to bottom, #323232 1px, transparent 1px);
+}
+*{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+ 
 }

@@ -1,8 +1,34 @@
-.container{
-    background-color: antiquewhite;
-    width: 200px;
-    position: absolute;
+.container {
+  position: absolute;
+  width: 20em;
+  border-radius: 5px;
+  /* overflow: hidden; */
 }
-.notesHeader{
+.notesHeader {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
 
+.notesBody {
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.notesText {
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  resize: none;
+
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 80%;
+  }
 }

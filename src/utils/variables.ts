@@ -1,22 +1,23 @@
-export const notesColors={
-    pink:{
+export const notesColors=[
+    {
         id:1,
-        header:"#FDD0FD",
-        body:"#FEE5FD",
+        body:"#FDD0FD",
+        header:"#FEE5FD",
     },
-    yellow:{
+    {
         id:2,
-        header:"#FEF1BF",
-        body:"#FFF5DE",
+        body:"#FEF1BF",
+        header:"#FFF5DE",
     },
-    cyan:{
+    {
         id:3,
-        header:"#9AD2DE",
-        body:"#99CAD6",
+        body:"#9AD2DE",
+        header:"#99CAD6",
     },
-    green:{
+    {
         id:4,
-        header:"#B0DA9E",
-        body:"#A9C79E",
+        body:"#B0DA9E",
+        header:"#A9C79E",
     }
-}
+]
+
