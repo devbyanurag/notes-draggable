@@ -123,7 +123,7 @@ const Notes = ({ noteData, onUpdateNote, handleFocusNote,handleDelete }: NotesIn
         style={{ backgroundColor: notesColors[noteData.colorId].body }} className={styles.notesBody}>
         <textarea
           ref={textAreaRef}
-          rows={1}
+          rows={2}
           value={noteData.bodyText}
           onChange={handleTextChange}
           className={styles.notesText}
